@@ -22,11 +22,11 @@
 - ```rails new .``` : Crée un nouveau projet RubyObRails dans le dossier courrant
 - ```rails server``` : (ou ```rails s```) Lance un serveur local permettant de tester l'application sur son ordinateur avec l'aide d'un navigateur
 
-# Création du projet Curiosités
+# Démarrage du projet Curiosités
 
 ## Github
 
-Pour partager vos avancées avec vos mentors, travailler en équipe et ne rien perdre de vos projets, nous conseillons de créer un compte [Github](github.com).
+Pour partager vos avancées avec vos mentors, travailler en équipe et ne rien perdre de vos projets, nous conseillons de créer un compte [Github](https://github.com/join?source=header-home).
 
 ![Création de compte](/images/readme/github_creation.png)
 
@@ -40,12 +40,43 @@ Votre répertoire créé sera vide et pret à etre utilisé.
 
 ![Répertoire de travail vide](/images/readme/repertoire_cree.png)
 
-## Installation native
+## Installation de l'environnement de travail
+
+Lorsque l'on commence un projet avec Ruby On Rails, certains outils sont pré-requis. On peut soit les installer directement sur une machine, soit utiliser un environnement de travail déjà préparé (Cloud9 ou machines virtuelles).
+
+Si vous débutez dans le monde du développement, nous vous conseillons d'utiliser un environnement déjà préparé pour vous éviter une installation un peu complexe.
+
+### Installation native
 
 [En construction]
 
-## Avec Cloud9
+### Avec Cloud9
 
+[Cloud9](https://c9.io/signup) propose la création de comptes gratuits.
+
+![Creation Compte Cloud9](/images/readme/cloud9_creation_compte.png)
+
+Après la création de votre compte, vous aurez la possibilité de créer un nouveau worskpace (espace de travail).
+
+![Votre compte](/images/readme/cloud9_creation_workspace.png)
+
+Cliquez sur ``` Create a new workspace ```.
+
+![Workspace Cloud9](/images/readme/lien_cloud9_github.png)
+
+Renseignez le nom de votre projet (``` curiosites ``` par exemple), le lien vers Github, le modèle Ruby (section ```Template```) et cliquez sur le bouton de création.
+
+Vous arrivez sur un éditeur de texte intégré dans votre navigateur:
+
+![Cloud9 Editeur](/images/readme/workspace_vide.png)
+
+Utilisez le terminal pour créer une application Ruby On Rails et construire automatiquement les fichiers de base de votre projet avec la commande ``` rails new . ```
+
+![Rails New](/images/readme/rails_new.png)
+
+Cela va générer de nouveaux fichiers dans votre projet.
+
+![Projet rempli](/images/readme/projet_rempli.png)
 
 # Étape 3 : Enregistrer les modifications sur le répertoire distant
 

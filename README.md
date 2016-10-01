@@ -28,7 +28,7 @@ Voici une liste de commandes que vous allez utiliser dans ce tutoriel. Certaines
 - ```rails new .``` : Crée un nouveau projet RubyObRails dans le dossier courrant
 - ```rails server``` : (ou ```rails s```) Lance un serveur local permettant de tester l'application sur son ordinateur avec l'aide d'un navigateur
 
-# Démarrage du projet Curiosités
+# Étape 2 : Démarrage du projet Curiosités
 
 ## Github
 
@@ -81,13 +81,17 @@ Utilisez le terminal pour créer une application Ruby On Rails et construire aut
 ![Rails New](/images/readme/rails_new.png)
 
 Cela va générer de nouveaux fichiers dans votre projet.
-
 ![Projet rempli](/images/readme/projet_rempli.png)
 
 # Étape 3 : Enregistrer les modifications sur le répertoire distant
 
 [Enregistrer vos modifications et les envoyer sur votre répertoire Github](https://women-on-rails.github.io/guide/push_project)
 
+# Étape 4 : 1ère approche de l'application Rails
+
+But: Ajouter à notre application les images et les fichiers index.html et custom.css présents dans le répertoire ```week-1```.
+
+Après avoir ajouté ces fichiers à votre application, lancez un serveur Rails avec le bouton ``` Run Project ``` dans votre workspace Cloud9.
 
 # Pour aller plus loin :
 - Commencer avec GIT : http://christopheducamp.com/2013/12/15/github-pour-nuls-partie-1/

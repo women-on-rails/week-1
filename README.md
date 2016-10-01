@@ -28,15 +28,17 @@
 
 Pour partager vos avancées avec vos mentors, travailler en équipe et ne rien perdre de vos projets, nous conseillons de créer un compte [Github](github.com).
 
-![Compte Github](/images/readme/github_creation_repertoire.png)
+![Création de compte](/images/readme/github_creation.png)
 
 Lorsque cette étape est finie, vous pourrez créer un nouveau répertoire de travail, sur Github, appelé curiosites.
+
+![Compte Github](/images/readme/github_creation_repertoire.png)
 
 ![Création du répertoire de travail](/images/readme/nommage_repertoire.png)
 
 Votre répertoire créé sera vide et pret à etre utilisé.
 
-![Répertoire de travail vide](repertoire_cree.png)
+![Répertoire de travail vide](/images/readme/repertoire_cree.png)
 
 ## Installation native
 

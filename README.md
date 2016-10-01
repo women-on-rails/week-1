@@ -22,7 +22,21 @@
 - ```rails new .``` : Crée un nouveau projet RubyObRails dans le dossier courrant
 - ```rails server``` : (ou ```rails s```) Lance un serveur local permettant de tester l'application sur son ordinateur avec l'aide d'un navigateur
 
-# Création de votre projet Ruby On Rails
+# Création du projet Curiosités
+
+## Github
+
+Pour partager vos avancées avec vos mentors, travailler en équipe et ne rien perdre de vos projets, nous conseillons de créer un compte [Github](github.com).
+
+![Compte Github](/images/readme/github_creation_repertoire.png)
+
+Lorsque cette étape est finie, vous pourrez créer un nouveau répertoire de travail, sur Github, appelé curiosites.
+
+![Création du répertoire de travail](/images/readme/nommage_repertoire.png)
+
+Votre répertoire créé sera vide et pret à etre utilisé.
+
+![Répertoire de travail vide](repertoire_cree.png)
 
 ## Installation native
 

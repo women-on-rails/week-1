@@ -56,7 +56,7 @@ Si vous débutez dans le monde du développement, nous vous conseillons d'utilis
 
 ![Creation Compte Cloud9](/images/readme/cloud9_creation_compte.png)
 
-Après la création de votre compte, vous aurez la possibilité de créer un nouveau worskpace (espace de travail).
+Après la création de votre compte, vous aurez la possibilité de créer un nouveau workspace (espace de travail).
 
 ![Votre compte](/images/readme/cloud9_creation_workspace.png)
 

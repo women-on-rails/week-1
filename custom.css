@@ -1,0 +1,105 @@
+
+/****************************************************/
+/********* Change Bootstrap Styles ************/
+/**************************************************/
+
+.navbar-custom {
+  background-color: transparent;
+  border-color: transparent;
+  border-radius: 0;
+}
+
+.navbar-text {
+  color: #4A4A4A;
+}
+
+.navbar-text a {
+  color: #4A4A4A;
+}
+
+#logo {
+  width: 90px;
+}
+
+.navbar-brand {
+  height: auto;
+}
+
+.navbar-text {
+  margin-top: 20px;
+}
+
+.img-responsive {
+  max-width: inherit;
+}
+
+/**********************************************/
+/************ General styles ***************/
+/********************************************/
+
+.underline {
+  text-decoration: none;
+  box-shadow: inset 0 -6px 0 #50E3C2;
+  color: inherit;
+  -webkit-transition: background 0.1s cubic-bezier(0.33, 0.66, 0.66, 1);
+  transition: background 0.1s cubic-bezier(0.33, 0.66, 0.66, 1);
+  padding-right: 10px;
+}
+
+/*a, h1, h2, h3, h4, h5, h6 {
+  font-family: "Intro Black";
+}*/
+
+.item {
+  width: 100%;
+  height: 300px; 
+  overflow: hidden;
+  position: relative;
+}
+
+.item .picture {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.item a {
+  width: 200px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-left: -100px;
+}
+
+/**********************************************/
+/**************** Header *******************/
+/********************************************/
+
+#avatar img {
+  max-width: 60%;
+  border-radius: 50%;
+  overflow: hidden;
+  /*border: 1px solid #4A4A4A;*/
+}
+
+#presentation {
+  background-color: #50E3C2;
+  padding: 20px 0;
+}
+
+#presentation h2 {
+  font-size: 20px;
+}
+
+/**********************************************/
+/*************** Curiosities *****************/
+/********************************************/
+
+#curiosities h2 {
+  text-align: center;
+  margin: 60px auto;
+}
+
+#curiosities h3, p {
+  text-align: center;
+}

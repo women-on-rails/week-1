@@ -17,10 +17,14 @@ Voici une liste de commandes que vous allez utiliser dans ce tutoriel. Certaines
 
 ## Commandes principales de Git
 
-- git status
-- git commit
-- git add / git add -p
-- git branch
+- git init : Utile pour tout nouveau projet. Cela permet d'initialiser git dans le dossier de travail.
+- git clone : Crée une copie du projet distant (ce que vous voyez sur github par exemple) sur votre orginateur (en local).
+- git status : Permet de voir les différences entre ce que vous avez en ce moment dans les fichiers et ce que git a compris "depuis la dernière sauvegarde".
+- git add : Ajoute un changement aux modifications à prendre en compte (à l'index). Exemples: ``` git add -p ``` pour choisir l'ajout fichier par fichier, ```git add . ``` pour tout ajouter
+- ```git commit -m "Mon message"``` : Permet d'enregistrer de manière permanente en y associant un message.
+- ```git push origin master``` : Envoie toutes les modifications enregistrées vers le répertoire distant (vers Github dans notre cas)
+
+Voir [ce lien](http://rogerdudler.github.io/git-guide/index.fr.html) pour plus d'informations.
 
 ## Commandes Ruby On Rails
 
@@ -91,10 +95,28 @@ Cela va générer de nouveaux fichiers dans votre projet.
 
 But: Ajouter à notre application les images et les fichiers index.html et custom.css présents dans le répertoire ```week-1```.
 
-Après avoir ajouté ces fichiers à votre application, lancez un serveur Rails avec le bouton ``` Run Project ``` dans votre workspace Cloud9.
+Tout d'abord, tapez la commande ``` rails generate controller curiosities index ```.
+
+Puis allez dans le fichier ```/config/routes.rb``` et ajoutez la ligne suivante ``` root 'curiosities#index'``` avant la ligne ``` get 'curiosities/index'```.
+
+Ouvrez le fichier ```index.html``` situé dans le dossier ```/app/views/curiosities``` et copiez-y le contenu du fichier ```index.html``` du projet ```week-1```.
+
+Après avoir ajouté ces fichiers à votre application, lancez un serveur Rails avec le bouton ``` Run Project ``` dans votre workspace Cloud9 pour pouvoir visualiser vos changements. L'url à utiliser dans le navigateur sera indiquée dans le terminal.
+
+A ce stade, vous devriez avoir une page qui s'affiche mais qui semble inachevée. Il manque le css et quelques images.
+
+Retournez sur Cloud9 et copiez les images du projet ```week-1``` contenues dans le dossier ```/images/project/``` dans le dossier ```/app/assets/images/``` de votre application.
+
+Puis copiez le contenu du fichier ```custom.css``` du projet ```week-1``` dans le fichier ``` /app/assets/stylesheets/application.css ``` de votre application.
+
+Relancez le serveur et retournez voir votre navigateur. L'application devrait s'afficher parfaitement.
+
+Bravo ! Vous venez de tester avec succès l'environnement sur lequel vous travaillerez tout au long du cycle.
+
+PS : N'oubliez pas de refaire l'étape 3 après avoir fait toutes ces dernières modifications. Cela permettra de partager vos modifications sur Github.
 
 # Pour aller plus loin :
-- Commencer avec GIT : http://christopheducamp.com/2013/12/15/github-pour-nuls-partie-1/
+- Commencer avec GIT : http://christopheducamp.com/2013/12/15/github-pour-nuls-partie-1/ ou http://rogerdudler.github.io/git-guide/index.fr.html
 - Aller plus loin avec les répertoires distants : https://git-scm.com/book/fr/v1/Les-bases-de-Git-Travailler-avec-des-d%C3%A9p%C3%B4ts-distants
 - Premiers pas en CSS : http://css.mammouthland.net/premiers-pas-en-css.php
 - Principales balises en HTML : https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/memento-des-balises-html ou http://www.vieytes.org/tbalises.html

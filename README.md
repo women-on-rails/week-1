@@ -87,33 +87,13 @@ Utilisez le terminal pour créer une application Ruby On Rails et construire aut
 Cela va générer de nouveaux fichiers dans votre projet.
 ![Projet rempli](/images/readme/projet_rempli.png)
 
-# Étape 3 : Enregistrer les modifications sur le répertoire distant
-
-[Enregistrer vos modifications et les envoyer sur votre répertoire Github](https://women-on-rails.github.io/guide/push_project)
-
-# Étape 4 : 1ère approche de l'application Rails
-
-But: Ajouter à notre application les images et les fichiers index.html et custom.css présents dans le répertoire ```week-1```.
-
-Tout d'abord, tapez la commande ``` rails generate controller curiosities index ```.
-
-Puis allez dans le fichier ```/config/routes.rb``` et ajoutez la ligne suivante ``` root 'curiosities#index'``` avant la ligne ``` get 'curiosities/index'```.
-
-Ouvrez le fichier ```index.html``` situé dans le dossier ```/app/views/curiosities``` et copiez-y le contenu du fichier ```index.html``` du projet ```week-1```.
-
-Après avoir ajouté ces fichiers à votre application, lancez un serveur Rails avec le bouton ``` Run Project ``` dans votre workspace Cloud9 pour pouvoir visualiser vos changements. L'url à utiliser dans le navigateur sera indiquée dans le terminal.
-
-A ce stade, vous devriez avoir une page qui s'affiche mais qui semble inachevée. Il manque le css et quelques images.
-
-Retournez sur Cloud9 et copiez les images du projet ```week-1``` contenues dans le dossier ```/images/project/``` dans le dossier ```/app/assets/images/``` de votre application.
-
-Puis copiez le contenu du fichier ```custom.css``` du projet ```week-1``` dans le fichier ``` /app/assets/stylesheets/application.css ``` de votre application.
-
-Relancez le serveur et retournez voir votre navigateur. L'application devrait s'afficher parfaitement.
+Lancez un serveur Rails avec le bouton ``` Run Project ``` dans votre workspace Cloud9 pour pouvoir visualiser la page d'accueil de votre application. L'url à utiliser dans le navigateur sera indiquée dans le terminal.
 
 Bravo ! Vous venez de tester avec succès l'environnement sur lequel vous travaillerez tout au long du cycle.
 
-PS : N'oubliez pas de refaire l'étape 3 après avoir fait toutes ces dernières modifications. Cela permettra de partager vos modifications sur Github.
+# Étape 3 : Enregistrer les modifications sur le répertoire distant
+
+[Enregistrer vos modifications et les envoyer sur votre répertoire Github](https://women-on-rails.github.io/guide/push_project)
 
 # Pour aller plus loin :
 - Commencer avec GIT : http://christopheducamp.com/2013/12/15/github-pour-nuls-partie-1/ ou http://rogerdudler.github.io/git-guide/index.fr.html

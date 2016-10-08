@@ -64,9 +64,13 @@ Si vous débutez dans le monde du développement, nous vous conseillons d'utilis
 
 ### Avec Cloud9
 
+#### Création du compte Cloud9
+
 [Cloud9](https://c9.io/signup) propose la création de comptes gratuits.
 
 ![Creation Compte Cloud9](/images/readme/cloud9_creation_compte.png)
+
+#### Création du workspace
 
 Après la création de votre compte, vous aurez la possibilité de créer un nouveau workspace (espace de travail).
 
@@ -77,6 +81,38 @@ Cliquez sur ``` Create a new workspace ```.
 ![Workspace Cloud9](/images/readme/lien_cloud9_github.png)
 
 Renseignez le nom de votre projet (``` curiosites ``` par exemple), le lien vers Github, le modèle Ruby (section ```Template```) et cliquez sur le bouton de création.
+
+#### Difficultés possibles
+
+Si à cette étape vous rencontrez une erreur (problème de clé SSH), vous allez avoir besoin d'identifier votre compte Could9 auprès de votre compte Github de manière sécurisée.
+
+Plus d'infos sur les clés SSH [ici](http://sebsauvage.net/comprendre/ssl/).
+
+Rendez vous sur votre compte Github et allez sur votre profil.
+
+![Recherche Profil](/images/readme/recherche_profil.png)
+
+Puis cliquez sur ``` Edit profile ``` pour aller sur la page de configuration de votre compte.
+
+Suite à cela, choisissez le menu ``` SSH and GPG keys ```.
+
+![Acces configuration SSH](/images/readme/settings.png)
+
+Cette section va vous permettre d'ajouter une nouvelle clé SSH relative à votre compte Cloud9. La clé SSH se trouve sur votre compte [Cloud9](https://c9.io/) et est accessible dans les paramètres.
+
+![Parametres Cloud9](/images/readme/parametres_cloud9.png)
+
+Dans la section ``` SSH Keys ```, copiez la clé SSH qui vous est indiquée.
+
+![Ou trouver la clé SSH Cloud9](/images/readme/copie_cle_ssh.png)
+
+Retournez sur votre compte [Github](https://github.com/settings/keys) et ajoutez la clé précedemment copié dans votre presse-papier.
+
+![Créer une nouvelle clé SSH](/images/readme/creation_cle_ssh.png)
+
+Voila ! Retournez sur Cloud9 pour essayer de nouveau la création d'un nouveau workspace.
+
+#### Utilisation de l'espace de travail
 
 Vous arrivez sur un éditeur de texte intégré dans votre navigateur:
 

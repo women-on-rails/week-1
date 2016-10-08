@@ -8,6 +8,8 @@ Voici une liste de commandes que vous allez utiliser dans ce tutoriel. Certaines
 
 ## Commandes principales de la console
 
+La console permet d'interagir avec votre machine sans utiliser d'interface graphique (qui est plus limitée et moins rapide d'utilisation). Vous pouvez par exemple créer un nouveau fichier ou vous déplacer dans des dossiers en utilisant les commandes suivantes:
+
 - cd : Permet de se déplacer à travers les répertoires (+ tab pour autocompletion). Exemple: ``` cd images ```
 - ls : Liste les fichiers et dossiers de votre répertoire courrant. Exemple: ``` ls ```
 - touch : Permet de créer des fichiers. Exemple: ``` touch index.html ```
@@ -18,6 +20,10 @@ Voici une liste de commandes que vous allez utiliser dans ce tutoriel. Certaines
 - rm : Permet de détruire un élément sur la machine. Exemple: ``` rm index.html ``` détruit le fichier ``` index.html ```
 
 ## Commandes principales de Git
+
+Git est un outil permettant de travailler en équipe et de versionner son travail.
+
+Voici les commandes principales que nous allons utiliser tout au long du projet, pour utiliser Git:
 
 - git init : Utile pour tout nouveau projet. Cela permet d'initialiser git dans le dossier de travail.
 - git clone : Crée une copie du projet distant (ce que vous voyez sur github par exemple) sur votre orginateur (en local).
@@ -139,3 +145,4 @@ Bravo ! Vous venez de tester avec succès l'environnement sur lequel vous travai
 - Premiers pas en CSS : http://css.mammouthland.net/premiers-pas-en-css.php
 - Principales balises en HTML : https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/memento-des-balises-html ou http://www.vieytes.org/tbalises.html
 - Guide complet sur le HTML : http://www.lehtml.com/html/index.htm
+- Les clés SSH : http://sebsauvage.net/comprendre/ssl/

@@ -1,5 +1,7 @@
 # Préambule
 
+Slides du cours disponibles [ici](http://slides.com/women_on_rails/week-1)
+
 Ce tutoriel a pour objectif de mettre en place un environnement de travail propre pour commencer un nouveau projet Ruby On Rails dans le cadre du cycle 1 des ateliers Women On Rails.
 
 # Étape 1 : Notions utiles

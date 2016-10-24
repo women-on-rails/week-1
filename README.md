@@ -141,7 +141,7 @@ Bravo ! Vous venez de tester avec succès l'environnement sur lequel vous travai
 
 [Enregistrer vos modifications et les envoyer sur votre répertoire Github](https://women-on-rails.github.io/guide/push_project)
 
-# Pour aller plus loin :
+# Liens Utiles :
 - Commencer avec GIT : http://christopheducamp.com/2013/12/15/github-pour-nuls-partie-1/ ou http://rogerdudler.github.io/git-guide/index.fr.html
 - Aller plus loin avec les répertoires distants : https://git-scm.com/book/fr/v1/Les-bases-de-Git-Travailler-avec-des-d%C3%A9p%C3%B4ts-distants
 - Premiers pas en CSS : http://css.mammouthland.net/premiers-pas-en-css.php

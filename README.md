@@ -148,3 +148,6 @@ Bravo ! Vous venez de tester avec succès l'environnement sur lequel vous travai
 - Principales balises en HTML : https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/memento-des-balises-html ou http://www.vieytes.org/tbalises.html
 - Guide complet sur le HTML : http://www.lehtml.com/html/index.htm
 - Les clés SSH : http://sebsauvage.net/comprendre/ssl/
+
+# Et ensuite ?
+Venez découvrir l'architecture de base d'un projet Ruby On Rails et comprendre comment utiliser des plug-ins déjà existants dans le tutoriel [Week-2](https://github.com/women-on-rails/week-2)

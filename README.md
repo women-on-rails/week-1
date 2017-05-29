@@ -6,7 +6,12 @@ Ce tutoriel a pour objectif de mettre en place un environnement de travail propr
 
 # Étape 1 : Notions utiles
 
-Voici une liste de commandes que vous allez utiliser dans ce tutoriel. Certaines concernent des notions qui seront abordées dans les ateliers suivants du cycle.
+Voici une liste de commandes et d'outils que vous allez utiliser dans ce tutoriel. Certains concernent des notions qui seront abordées dans les ateliers suivants du cycle.
+
+## Lexique préliminaire
+
+- Environnement de développement : Fait référence à tous les outils dont vous aurez besoin pour cette initiation (éditeur de texte, terminal, ruby, Ruby on Rails, etc)
+- Installation native : Installation de l'environnement de développement directement sur votre machine (par opposition à l'installation cloud9 où vous n'installez rien sur votre ordinateur)
 
 ## Commandes principales de la console
 

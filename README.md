@@ -90,6 +90,10 @@ Cliquez sur ``` Create a new workspace ```.
 
 Renseignez le nom de votre projet (``` curiosites ``` par exemple), le lien vers Github, le modèle Ruby (section ```Template```) et cliquez sur le bouton de création.
 
+Pour trouver le lien vers Github à renseigner, retournez sur votre repertoire Github puis copiez le lien ```ssh``` qui vous est fourni.
+
+![Lien Github](/images/readme/github_link.png)
+
 #### Difficultés possibles
 
 Si à cette étape vous rencontrez une erreur (problème de clé SSH), vous allez avoir besoin d'identifier votre compte Could9 auprès de votre compte Github de manière sécurisée.
